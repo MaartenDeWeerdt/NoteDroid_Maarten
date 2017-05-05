@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/et_detail_titel"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:ems="10"
+        android:hint="Titel"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/et_detail_inhoud"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/et_detail_titel"
+        android:layout_alignLeft="@+id/et_detail_titel"
+        android:layout_alignRight="@+id/et_detail_titel"
+        android:layout_alignStart="@+id/et_detail_titel"
+        android:layout_below="@+id/et_detail_titel"
+        android:layout_marginTop="21dp"
+        android:ems="10"
+        android:hint="inhoud"
+        android:inputType="textMultiLine"
+        android:maxHeight="300dp" />
+
+    <Button
+        android:id="@+id/btn_detail_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:text="Opslaan" />
+</RelativeLayout>
